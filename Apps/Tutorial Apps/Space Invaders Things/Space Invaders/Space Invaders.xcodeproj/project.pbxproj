@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CE6C6BD184C231200C39F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE6C6BC184C231200C39F85 /* Foundation.framework */; };
+		5CE6C6BF184C231200C39F85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE6C6BE184C231200C39F85 /* CoreGraphics.framework */; };
+		5CE6C6C1184C231200C39F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE6C6C0184C231200C39F85 /* UIKit.framework */; };
+		5CE6C6C7184C231200C39F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6C5184C231200C39F85 /* InfoPlist.strings */; };
+		5CE6C6C9184C231200C39F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6C6C8184C231200C39F85 /* main.m */; };
+		5CE6C6CD184C231200C39F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6C6CC184C231200C39F85 /* AppDelegate.m */; };
+		5CE6C6D0184C231200C39F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6CE184C231200C39F85 /* Main.storyboard */; };
+		5CE6C6D3184C231200C39F85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6C6D2184C231200C39F85 /* ViewController.m */; };
+		5CE6C6D5184C231200C39F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6D4184C231200C39F85 /* Images.xcassets */; };
+		5CE6C6DC184C231200C39F85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE6C6DB184C231200C39F85 /* XCTest.framework */; };
+		5CE6C6DD184C231200C39F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE6C6BC184C231200C39F85 /* Foundation.framework */; };
+		5CE6C6DE184C231200C39F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE6C6C0184C231200C39F85 /* UIKit.framework */; };
+		5CE6C6E6184C231200C39F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6E4184C231200C39F85 /* InfoPlist.strings */; };
+		5CE6C6E8184C231200C39F85 /* Space_InvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6C6E7184C231200C39F85 /* Space_InvadersTests.m */; };
+		5CE6C6F7184C233500C39F85 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6F1184C233500C39F85 /* Background.png */; };
+		5CE6C6F8184C233500C39F85 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6F2184C233500C39F85 /* Blue.png */; };
+		5CE6C6F9184C233500C39F85 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6F3184C233500C39F85 /* Green.png */; };
+		5CE6C6FA184C233500C39F85 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6F4184C233500C39F85 /* Orange.png */; };
+		5CE6C6FB184C233500C39F85 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6F5184C233500C39F85 /* Red.png */; };
+		5CE6C6FC184C233500C39F85 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6C6F6184C233500C39F85 /* Yellow.png */; };
+		5CE6C6FF184C270B00C39F85 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6C6FE184C270B00C39F85 /* GameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CE6C6DF184C231200C39F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE6C6B1184C231200C39F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CE6C6B8184C231200C39F85;
+			remoteInfo = "Space Invaders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CE6C6B9184C231200C39F85 /* Space Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE6C6BC184C231200C39F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CE6C6BE184C231200C39F85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CE6C6C0184C231200C39F85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CE6C6C4184C231200C39F85 /* Space Invaders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Invaders-Info.plist"; sourceTree = "<group>"; };
+		5CE6C6C6184C231200C39F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CE6C6C8184C231200C39F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CE6C6CA184C231200C39F85 /* Space Invaders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Invaders-Prefix.pch"; sourceTree = "<group>"; };
+		5CE6C6CB184C231200C39F85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CE6C6CC184C231200C39F85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CE6C6CF184C231200C39F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CE6C6D1184C231200C39F85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CE6C6D2184C231200C39F85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CE6C6D4184C231200C39F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CE6C6DA184C231200C39F85 /* Space InvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space InvadersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE6C6DB184C231200C39F85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CE6C6E3184C231200C39F85 /* Space InvadersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space InvadersTests-Info.plist"; sourceTree = "<group>"; };
+		5CE6C6E5184C231200C39F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CE6C6E7184C231200C39F85 /* Space_InvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_InvadersTests.m; sourceTree = "<group>"; };
+		5CE6C6F1184C233500C39F85 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		5CE6C6F2184C233500C39F85 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		5CE6C6F3184C233500C39F85 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		5CE6C6F4184C233500C39F85 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		5CE6C6F5184C233500C39F85 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		5CE6C6F6184C233500C39F85 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		5CE6C6FD184C270B00C39F85 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		5CE6C6FE184C270B00C39F85 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CE6C6B6184C231200C39F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6C6BF184C231200C39F85 /* CoreGraphics.framework in Frameworks */,
+				5CE6C6C1184C231200C39F85 /* UIKit.framework in Frameworks */,
+				5CE6C6BD184C231200C39F85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE6C6D7184C231200C39F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6C6DC184C231200C39F85 /* XCTest.framework in Frameworks */,
+				5CE6C6DE184C231200C39F85 /* UIKit.framework in Frameworks */,
+				5CE6C6DD184C231200C39F85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CE6C6B0184C231200C39F85 = {
+			isa = PBXGroup;
+			children = (
+				5CE6C6C2184C231200C39F85 /* Space Invaders */,
+				5CE6C6E1184C231200C39F85 /* Space InvadersTests */,
+				5CE6C6BB184C231200C39F85 /* Frameworks */,
+				5CE6C6BA184C231200C39F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CE6C6BA184C231200C39F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6C6B9184C231200C39F85 /* Space Invaders.app */,
+				5CE6C6DA184C231200C39F85 /* Space InvadersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE6C6BB184C231200C39F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6C6BC184C231200C39F85 /* Foundation.framework */,
+				5CE6C6BE184C231200C39F85 /* CoreGraphics.framework */,
+				5CE6C6C0184C231200C39F85 /* UIKit.framework */,
+				5CE6C6DB184C231200C39F85 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CE6C6C2184C231200C39F85 /* Space Invaders */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6C6CB184C231200C39F85 /* AppDelegate.h */,
+				5CE6C6CC184C231200C39F85 /* AppDelegate.m */,
+				5CE6C6CE184C231200C39F85 /* Main.storyboard */,
+				5CE6C6D1184C231200C39F85 /* ViewController.h */,
+				5CE6C6D2184C231200C39F85 /* ViewController.m */,
+				5CE6C6FD184C270B00C39F85 /* GameViewController.h */,
+				5CE6C6FE184C270B00C39F85 /* GameViewController.m */,
+				5CE6C6D4184C231200C39F85 /* Images.xcassets */,
+				5CE6C6C3184C231200C39F85 /* Supporting Files */,
+			);
+			path = "Space Invaders";
+			sourceTree = "<group>";
+		};
+		5CE6C6C3184C231200C39F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6C6F1184C233500C39F85 /* Background.png */,
+				5CE6C6F2184C233500C39F85 /* Blue.png */,
+				5CE6C6F3184C233500C39F85 /* Green.png */,
+				5CE6C6F4184C233500C39F85 /* Orange.png */,
+				5CE6C6F5184C233500C39F85 /* Red.png */,
+				5CE6C6F6184C233500C39F85 /* Yellow.png */,
+				5CE6C6C4184C231200C39F85 /* Space Invaders-Info.plist */,
+				5CE6C6C5184C231200C39F85 /* InfoPlist.strings */,
+				5CE6C6C8184C231200C39F85 /* main.m */,
+				5CE6C6CA184C231200C39F85 /* Space Invaders-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CE6C6E1184C231200C39F85 /* Space InvadersTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6C6E7184C231200C39F85 /* Space_InvadersTests.m */,
+				5CE6C6E2184C231200C39F85 /* Supporting Files */,
+			);
+			path = "Space InvadersTests";
+			sourceTree = "<group>";
+		};
+		5CE6C6E2184C231200C39F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE6C6E3184C231200C39F85 /* Space InvadersTests-Info.plist */,
+				5CE6C6E4184C231200C39F85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CE6C6B8184C231200C39F85 /* Space Invaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE6C6EB184C231200C39F85 /* Build configuration list for PBXNativeTarget "Space Invaders" */;
+			buildPhases = (
+				5CE6C6B5184C231200C39F85 /* Sources */,
+				5CE6C6B6184C231200C39F85 /* Frameworks */,
+				5CE6C6B7184C231200C39F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Invaders";
+			productName = "Space Invaders";
+			productReference = 5CE6C6B9184C231200C39F85 /* Space Invaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CE6C6D9184C231200C39F85 /* Space InvadersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE6C6EE184C231200C39F85 /* Build configuration list for PBXNativeTarget "Space InvadersTests" */;
+			buildPhases = (
+				5CE6C6D6184C231200C39F85 /* Sources */,
+				5CE6C6D7184C231200C39F85 /* Frameworks */,
+				5CE6C6D8184C231200C39F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE6C6E0184C231200C39F85 /* PBXTargetDependency */,
+			);
+			name = "Space InvadersTests";
+			productName = "Space InvadersTests";
+			productReference = 5CE6C6DA184C231200C39F85 /* Space InvadersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CE6C6B1184C231200C39F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = example;
+				TargetAttributes = {
+					5CE6C6D9184C231200C39F85 = {
+						TestTargetID = 5CE6C6B8184C231200C39F85;
+					};
+				};
+			};
+			buildConfigurationList = 5CE6C6B4184C231200C39F85 /* Build configuration list for PBXProject "Space Invaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CE6C6B0184C231200C39F85;
+			productRefGroup = 5CE6C6BA184C231200C39F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CE6C6B8184C231200C39F85 /* Space Invaders */,
+				5CE6C6D9184C231200C39F85 /* Space InvadersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CE6C6B7184C231200C39F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6C6D5184C231200C39F85 /* Images.xcassets in Resources */,
+				5CE6C6FA184C233500C39F85 /* Orange.png in Resources */,
+				5CE6C6F9184C233500C39F85 /* Green.png in Resources */,
+				5CE6C6F7184C233500C39F85 /* Background.png in Resources */,
+				5CE6C6F8184C233500C39F85 /* Blue.png in Resources */,
+				5CE6C6FB184C233500C39F85 /* Red.png in Resources */,
+				5CE6C6C7184C231200C39F85 /* InfoPlist.strings in Resources */,
+				5CE6C6D0184C231200C39F85 /* Main.storyboard in Resources */,
+				5CE6C6FC184C233500C39F85 /* Yellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE6C6D8184C231200C39F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6C6E6184C231200C39F85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CE6C6B5184C231200C39F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6C6FF184C270B00C39F85 /* GameViewController.m in Sources */,
+				5CE6C6D3184C231200C39F85 /* ViewController.m in Sources */,
+				5CE6C6CD184C231200C39F85 /* AppDelegate.m in Sources */,
+				5CE6C6C9184C231200C39F85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE6C6D6184C231200C39F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE6C6E8184C231200C39F85 /* Space_InvadersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CE6C6E0184C231200C39F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CE6C6B8184C231200C39F85 /* Space Invaders */;
+			targetProxy = 5CE6C6DF184C231200C39F85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CE6C6C5184C231200C39F85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE6C6C6184C231200C39F85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CE6C6CE184C231200C39F85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE6C6CF184C231200C39F85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE6C6E4184C231200C39F85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE6C6E5184C231200C39F85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CE6C6E9184C231200C39F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CE6C6EA184C231200C39F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CE6C6EC184C231200C39F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Invaders/Space Invaders-Prefix.pch";
+				INFOPLIST_FILE = "Space Invaders/Space Invaders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CE6C6ED184C231200C39F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Invaders/Space Invaders-Prefix.pch";
+				INFOPLIST_FILE = "Space Invaders/Space Invaders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CE6C6EF184C231200C39F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Invaders.app/Space Invaders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Invaders/Space Invaders-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space InvadersTests/Space InvadersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CE6C6F0184C231200C39F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Invaders.app/Space Invaders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Invaders/Space Invaders-Prefix.pch";
+				INFOPLIST_FILE = "Space InvadersTests/Space InvadersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CE6C6B4184C231200C39F85 /* Build configuration list for PBXProject "Space Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE6C6E9184C231200C39F85 /* Debug */,
+				5CE6C6EA184C231200C39F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE6C6EB184C231200C39F85 /* Build configuration list for PBXNativeTarget "Space Invaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE6C6EC184C231200C39F85 /* Debug */,
+				5CE6C6ED184C231200C39F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CE6C6EE184C231200C39F85 /* Build configuration list for PBXNativeTarget "Space InvadersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE6C6EF184C231200C39F85 /* Debug */,
+				5CE6C6F0184C231200C39F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CE6C6B1184C231200C39F85 /* Project object */;
+}

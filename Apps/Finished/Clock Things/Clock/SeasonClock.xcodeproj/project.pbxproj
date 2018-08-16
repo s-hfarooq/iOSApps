@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CF2563C186AA1170083686E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2563B186AA1170083686E /* Foundation.framework */; };
+		5CF2563E186AA1170083686E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2563D186AA1170083686E /* CoreGraphics.framework */; };
+		5CF25640186AA1170083686E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2563F186AA1170083686E /* UIKit.framework */; };
+		5CF25646186AA1170083686E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CF25644186AA1170083686E /* InfoPlist.strings */; };
+		5CF25648186AA1170083686E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF25647186AA1170083686E /* main.m */; };
+		5CF2564C186AA1170083686E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2564B186AA1170083686E /* AppDelegate.m */; };
+		5CF2564F186AA1170083686E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF2564D186AA1170083686E /* Main_iPhone.storyboard */; };
+		5CF25652186AA1170083686E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF25650186AA1170083686E /* Main_iPad.storyboard */; };
+		5CF25655186AA1170083686E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF25654186AA1170083686E /* ViewController.m */; };
+		5CF25657186AA1170083686E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF25656186AA1170083686E /* Images.xcassets */; };
+		5CF2565E186AA1170083686E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2565D186AA1170083686E /* XCTest.framework */; };
+		5CF2565F186AA1170083686E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2563B186AA1170083686E /* Foundation.framework */; };
+		5CF25660186AA1170083686E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2563F186AA1170083686E /* UIKit.framework */; };
+		5CF25668186AA1170083686E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CF25666186AA1170083686E /* InfoPlist.strings */; };
+		5CF2566A186AA1170083686E /* ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF25669186AA1170083686E /* ClockTests.m */; };
+		5CF25675186AA5010083686E /* Stopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF25674186AA5010083686E /* Stopwatch.m */; };
+		5CF25679186AB11C0083686E /* Snowflake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CF25676186AB11C0083686E /* Snowflake.jpg */; };
+		5CF2567A186AB11C0083686E /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF25677186AB11C0083686E /* Black.png */; };
+		5CF2567B186AB11C0083686E /* White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CF25678186AB11C0083686E /* White.jpg */; };
+		5CF2567D186AB79D0083686E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2567C186AB79D0083686E /* iAd.framework */; };
+		5CF25680186ABBE40083686E /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2567F186ABBE40083686E /* About.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF25661186AA1170083686E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF25630186AA1170083686E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF25637186AA1170083686E;
+			remoteInfo = Clock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CF25638186AA1170083686E /* SeasonClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF2563B186AA1170083686E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CF2563D186AA1170083686E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CF2563F186AA1170083686E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CF25643186AA1170083686E /* SeasonClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeasonClock-Info.plist"; sourceTree = "<group>"; };
+		5CF25645186AA1170083686E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CF25647186AA1170083686E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CF25649186AA1170083686E /* SeasonClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeasonClock-Prefix.pch"; sourceTree = "<group>"; };
+		5CF2564A186AA1170083686E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CF2564B186AA1170083686E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CF2564E186AA1170083686E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5CF25651186AA1170083686E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5CF25653186AA1170083686E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CF25654186AA1170083686E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CF25656186AA1170083686E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CF2565C186AA1170083686E /* SeasonClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeasonClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF2565D186AA1170083686E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CF25665186AA1170083686E /* SeasonClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeasonClockTests-Info.plist"; sourceTree = "<group>"; };
+		5CF25667186AA1170083686E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CF25669186AA1170083686E /* ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTests.m; sourceTree = "<group>"; };
+		5CF25673186AA5010083686E /* Stopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stopwatch.h; path = ../Stopwatch.h; sourceTree = "<group>"; };
+		5CF25674186AA5010083686E /* Stopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stopwatch.m; path = ../Stopwatch.m; sourceTree = "<group>"; };
+		5CF25676186AB11C0083686E /* Snowflake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snowflake.jpg; sourceTree = "<group>"; };
+		5CF25677186AB11C0083686E /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		5CF25678186AB11C0083686E /* White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = White.jpg; sourceTree = "<group>"; };
+		5CF2567C186AB79D0083686E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5CF2567E186ABBE40083686E /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = About.h; path = ../About.h; sourceTree = "<group>"; };
+		5CF2567F186ABBE40083686E /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = About.m; path = ../About.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF25635186AA1170083686E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF2567D186AB79D0083686E /* iAd.framework in Frameworks */,
+				5CF2563E186AA1170083686E /* CoreGraphics.framework in Frameworks */,
+				5CF25640186AA1170083686E /* UIKit.framework in Frameworks */,
+				5CF2563C186AA1170083686E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF25659186AA1170083686E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF2565E186AA1170083686E /* XCTest.framework in Frameworks */,
+				5CF25660186AA1170083686E /* UIKit.framework in Frameworks */,
+				5CF2565F186AA1170083686E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF2562F186AA1170083686E = {
+			isa = PBXGroup;
+			children = (
+				5CF25641186AA1170083686E /* Clock */,
+				5CF25663186AA1170083686E /* ClockTests */,
+				5CF2563A186AA1170083686E /* Frameworks */,
+				5CF25639186AA1170083686E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF25639186AA1170083686E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF25638186AA1170083686E /* SeasonClock.app */,
+				5CF2565C186AA1170083686E /* SeasonClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF2563A186AA1170083686E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2567C186AB79D0083686E /* iAd.framework */,
+				5CF2563B186AA1170083686E /* Foundation.framework */,
+				5CF2563D186AA1170083686E /* CoreGraphics.framework */,
+				5CF2563F186AA1170083686E /* UIKit.framework */,
+				5CF2565D186AA1170083686E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CF25641186AA1170083686E /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2564A186AA1170083686E /* AppDelegate.h */,
+				5CF2564B186AA1170083686E /* AppDelegate.m */,
+				5CF2564D186AA1170083686E /* Main_iPhone.storyboard */,
+				5CF25650186AA1170083686E /* Main_iPad.storyboard */,
+				5CF25653186AA1170083686E /* ViewController.h */,
+				5CF25654186AA1170083686E /* ViewController.m */,
+				5CF25673186AA5010083686E /* Stopwatch.h */,
+				5CF25674186AA5010083686E /* Stopwatch.m */,
+				5CF2567E186ABBE40083686E /* About.h */,
+				5CF2567F186ABBE40083686E /* About.m */,
+				5CF25656186AA1170083686E /* Images.xcassets */,
+				5CF25642186AA1170083686E /* Supporting Files */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		5CF25642186AA1170083686E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF25676186AB11C0083686E /* Snowflake.jpg */,
+				5CF25677186AB11C0083686E /* Black.png */,
+				5CF25678186AB11C0083686E /* White.jpg */,
+				5CF25643186AA1170083686E /* SeasonClock-Info.plist */,
+				5CF25644186AA1170083686E /* InfoPlist.strings */,
+				5CF25647186AA1170083686E /* main.m */,
+				5CF25649186AA1170083686E /* SeasonClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF25663186AA1170083686E /* ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF25669186AA1170083686E /* ClockTests.m */,
+				5CF25664186AA1170083686E /* Supporting Files */,
+			);
+			path = ClockTests;
+			sourceTree = "<group>";
+		};
+		5CF25664186AA1170083686E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF25665186AA1170083686E /* SeasonClockTests-Info.plist */,
+				5CF25666186AA1170083686E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF25637186AA1170083686E /* SeasonClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF2566D186AA1170083686E /* Build configuration list for PBXNativeTarget "SeasonClock" */;
+			buildPhases = (
+				5CF25634186AA1170083686E /* Sources */,
+				5CF25635186AA1170083686E /* Frameworks */,
+				5CF25636186AA1170083686E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeasonClock;
+			productName = Clock;
+			productReference = 5CF25638186AA1170083686E /* SeasonClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF2565B186AA1170083686E /* SeasonClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF25670186AA1170083686E /* Build configuration list for PBXNativeTarget "SeasonClockTests" */;
+			buildPhases = (
+				5CF25658186AA1170083686E /* Sources */,
+				5CF25659186AA1170083686E /* Frameworks */,
+				5CF2565A186AA1170083686E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF25662186AA1170083686E /* PBXTargetDependency */,
+			);
+			name = SeasonClockTests;
+			productName = ClockTests;
+			productReference = 5CF2565C186AA1170083686E /* SeasonClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF25630186AA1170083686E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hassan Farooq";
+				TargetAttributes = {
+					5CF2565B186AA1170083686E = {
+						TestTargetID = 5CF25637186AA1170083686E;
+					};
+				};
+			};
+			buildConfigurationList = 5CF25633186AA1170083686E /* Build configuration list for PBXProject "SeasonClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF2562F186AA1170083686E;
+			productRefGroup = 5CF25639186AA1170083686E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF25637186AA1170083686E /* SeasonClock */,
+				5CF2565B186AA1170083686E /* SeasonClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF25636186AA1170083686E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF25652186AA1170083686E /* Main_iPad.storyboard in Resources */,
+				5CF2567B186AB11C0083686E /* White.jpg in Resources */,
+				5CF25657186AA1170083686E /* Images.xcassets in Resources */,
+				5CF2564F186AA1170083686E /* Main_iPhone.storyboard in Resources */,
+				5CF2567A186AB11C0083686E /* Black.png in Resources */,
+				5CF25646186AA1170083686E /* InfoPlist.strings in Resources */,
+				5CF25679186AB11C0083686E /* Snowflake.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF2565A186AA1170083686E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF25668186AA1170083686E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF25634186AA1170083686E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF25655186AA1170083686E /* ViewController.m in Sources */,
+				5CF2564C186AA1170083686E /* AppDelegate.m in Sources */,
+				5CF25680186ABBE40083686E /* About.m in Sources */,
+				5CF25648186AA1170083686E /* main.m in Sources */,
+				5CF25675186AA5010083686E /* Stopwatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF25658186AA1170083686E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF2566A186AA1170083686E /* ClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF25662186AA1170083686E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF25637186AA1170083686E /* SeasonClock */;
+			targetProxy = 5CF25661186AA1170083686E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CF25644186AA1170083686E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF25645186AA1170083686E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CF2564D186AA1170083686E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF2564E186AA1170083686E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF25650186AA1170083686E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF25651186AA1170083686E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF25666186AA1170083686E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF25667186AA1170083686E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF2566B186AA1170083686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Farooq Bari (FEH733V4KB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Farooq Bari (FEH733V4KB)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CF2566C186AA1170083686E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Farooq Bari (FEH733V4KB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Farooq Bari (FEH733V4KB)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF2566E186AA1170083686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/SeasonClock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/SeasonClock-Info.plist";
+				PRODUCT_NAME = SeasonClock;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CF2566F186AA1170083686E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/SeasonClock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/SeasonClock-Info.plist";
+				PRODUCT_NAME = SeasonClock;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CF25671186AA1170083686E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClockTests/SeasonClockTests-Info.plist";
+				PRODUCT_NAME = SeasonClockTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CF25672186AA1170083686E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "ClockTests/SeasonClockTests-Info.plist";
+				PRODUCT_NAME = SeasonClockTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF25633186AA1170083686E /* Build configuration list for PBXProject "SeasonClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF2566B186AA1170083686E /* Debug */,
+				5CF2566C186AA1170083686E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF2566D186AA1170083686E /* Build configuration list for PBXNativeTarget "SeasonClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF2566E186AA1170083686E /* Debug */,
+				5CF2566F186AA1170083686E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF25670186AA1170083686E /* Build configuration list for PBXNativeTarget "SeasonClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF25671186AA1170083686E /* Debug */,
+				5CF25672186AA1170083686E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF25630186AA1170083686E /* Project object */;
+}
